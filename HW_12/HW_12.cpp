@@ -3,7 +3,7 @@ using namespace std;
 
 class ActionFigure {
 private:
-	string nickname;
+	string nickname = "test";
 	string hair_color;
 	string type; // anime, game....
 	int height;
@@ -13,64 +13,64 @@ private:
 	string beautiful;
 
 public:
-	void setNickname(string new_name) {
-		nickname = new_name;
+	void setNickname(string nickname) {
+		this->nickname = nickname;
 	}
 
 	string getNickname() {
 		return nickname;
 	}
 
-	void setHairColor(string new_color) {
-		hair_color = new_color;
+	void setHairColor(string hair_color) {
+		this->hair_color = hair_color;
 	}
 
 	string getHairColor() {
 		return hair_color;
 	}
 
-	void setType(string new_type) {
-		type = new_type;
+	void setType(string type) {
+		this->type = type;
 	}
 
 	string getType() {
 		return type;
 	}
 
-	void setHeight(int new_height) {
-		height = new_height;
+	void setHeight(int height) {
+		this->height = height;
 	}
 
 	int getHeight() {
 		return height;
 	}
 
-	void setCanMove(bool can_move_status) {
-		can_move = can_move_status;
+	void setCanMove(bool can_move) {
+		this->can_move = can_move;
 	}
 
 	bool getCanMove() {
 		return can_move;
 	}
 
-	void setHaveArmor(bool armor_status) {
-		have_armor = armor_status;
+	void setHaveArmor(bool have_armor) {
+		this->have_armor = have_armor;
 	}
 
 	bool getHaveArmor() {
 		return have_armor;
 	}
 
-	void setHaveWeapon(bool weapon_status) {
-		have_weapon = weapon_status;
+	void setHaveWeapon(bool have_weapon) {
+		this->have_weapon = have_weapon;
 	}
 
 	bool getHaveWeapon() {
 		return have_weapon;
 	}
 
-	void setBeautiful(string new_beautiful) {
-		beautiful = new_beautiful;
+	void setBeautiful(string beautiful) {
+		this->beautiful = beautiful;
 	}
 
 	string getBeautiful() {
@@ -101,56 +101,56 @@ private:
 	string beautiful;
 
 public:
-	void setName(string new_name) {
-		name = new_name;
+	void setName(string name) {
+		this->name = name;
 	}
 
 	string getName() {
 		return name;
 	}
 
-	void setColor(string new_color) {
-		color = new_color;
+	void setColor(string color) {
+		this->color = color;
 	}
 
 	string getColor() {
 		return color;
 	}
 
-	void setType(string new_type) {
-		type = new_type;
+	void setType(string type) {
+		this->type = type;
 	}
 
 	string getType() {
 		return type;
 	}
 
-	void setSize(int new_size) {
-		size = new_size;
+	void setSize(int size) {
+		this->size = size;
 	}
 
 	int getSize() {
 		return size;
 	}
 
-	void setHaveSheath(bool sheath_status) {
-		have_sheath = sheath_status;
+	void setHaveSheath(bool have_sheath) {
+		this->have_sheath = have_sheath;
 	}
 
 	bool getHaveSheath() {
 		return have_sheath;
 	}
 
-	void setSharpness(bool sharp_status) {
-		sharpness = sharp_status;
+	void setSharpness(bool sharpness) {
+		this->sharpness = sharpness;
 	}
 
 	bool getSharpness() {
 		return sharpness;
 	}
 
-	void setBeautiful(string new_beautiful) {
-		beautiful = new_beautiful;
+	void setBeautiful(string beautiful) {
+		this->beautiful = beautiful;
 	}
 
 	string getBeautiful() {
@@ -192,80 +192,80 @@ private:
 	string beautiful;
 
 public:
-	void setNickname(string new_nickname) {
-		nickname = new_nickname;
+	void setNickname(string nickname) {
+		this->nickname = nickname;
 	}
 
 	string getNickname() {
 		return nickname;
 	}
 
-	void setHairColor(string new_color) {
-		hair_color = new_color;
+	void setHairColor(string hair_color) {
+		this->hair_color = hair_color;
 	}
 
 	string getHairColor() {
 		return hair_color;
 	}
 
-	void setClassname(string new_classname) {
-		classname = new_classname;
+	void setClassname(string classname) {
+		this->classname = classname;
 	}
 
 	string getClassname() {
 		return classname;
 	}
 
-	void setHeight(int new_height) {
-		height = new_height;
+	void setHeight(int height) {
+		this->height = height;
 	}
 
 	int getHeight() {
 		return height;
 	}
 
-	void setHaveArmor(bool armor_status) {
-		have_armor = armor_status;
+	void setHaveArmor(bool have_armor) {
+		this->have_armor = have_armor;
 	}
 
 	bool getHaveArmor() {
 		return have_armor;
 	}
 
-	void setHaveWeapon(bool weapon_status) {
-		have_weapon = weapon_status;
+	void setHaveWeapon(bool have_weapon) {
+		this->have_weapon = have_weapon;
 	}
 
 	bool getHaveWeapon() {
 		return have_weapon;
 	}
 
-	void setWeaponName(string new_weapon_name) {
-		weapon_name = new_weapon_name;
+	void setWeaponName(string weapon_name) {
+		this->weapon_name = weapon_name;
 	}
 
 	string getWeaponName() {
 		return weapon_name;
 	}
 
-	void setWeaponType(string new_weapon_type) {
-		weapon_type = new_weapon_type;
+	void setWeaponType(string weapon_type) {
+		this->weapon_type = weapon_type;
 	}
 
 	string getWeaponType() {
 		return weapon_type;
 	}
 
-	void setNoblePhantasm(string new_noble_phantasm) {
-		noble_phantasm = new_noble_phantasm;
+	void setNoblePhantasm(string noble_phantasm) {
+		this->noble_phantasm = noble_phantasm;
 	}
 
 	string getNoblePhantasm() {
 		return noble_phantasm;
 	}
 
-	void setBeautiful(string new_beautiful) {
-		beautiful = new_beautiful;
+	void setBeautiful(string beautiful) {
+		this->beautiful = beautiful;
 	}
 
 	string getBeautiful() {
@@ -308,56 +308,56 @@ private:
 	string beautiful;
 
 public:
-	void setNickname(string new_nickname) {
-		nickname = new_nickname;
+	void setNickname(string nickname) {
+		this->nickname = nickname;
 	}
 
 	string getNickname() {
 		return nickname;
 	}
 
-	void setHairColor(string new_color) {
-		hair_color = new_color;
+	void setHairColor(string hair_color) {
+		this->hair_color = hair_color;
 	}
 
 	string getHairColor() {
 		return hair_color;
 	}
 
-	void setType(string new_type) {
-		type = new_type;
+	void setType(string type) {
+		this->type = type;
 	}
 
 	string getType() {
 		return type;
 	}
 
-	void setHeight(int new_height) {
-		height = new_height;
+	void setHeight(int height) {
+		this->height = height;
 	}
 
 	int getHeight() {
 		return height;
 	}
 
-	void setHaveArmor(bool armor_status) {
-		have_armor = armor_status;
+	void setHaveArmor(bool have_armor) {
+		this->have_armor = have_armor;
 	}
 
 	bool getHaveArmor() {
 		return have_armor;
 	}
 
-	void setHaveWeapon(bool weapon_status) {
-		have_weapon = weapon_status;
+	void setHaveWeapon(bool have_weapon) {
+		this->have_weapon = have_weapon;
 	}
 
 	bool getHaveWeapon() {
 		return have_weapon;
 	}
 
-	void setComandSpells(int new_comand_spells) {
-		comand_spells = new_comand_spells;
+	void setComandSpells(int comand_spells) {
+		this->comand_spells = comand_spells;
 	}
 
 	int getComandSpells() {
@@ -372,32 +372,32 @@ public:
 		return comand_spells;
 	}
 
-	void setAge(int new_age) {
-		age = new_age;
+	void setAge(int age) {
+		this->age = age;
 	}
 
 	int getAge() {
 		return age;
 	}
 
-	void setHaveServant(bool servant_status) {
-		have_servant = servant_status;
+	void setHaveServant(bool have_servant) {
+		this->have_servant = have_servant;
 	}
 
 	bool getHaveServant() {
 		return have_servant;
 	}
 
-	void setServantName(string new_servant_name) {
-		servant_name = new_servant_name;
+	void setServantName(string servant_name) {
+		this->servant_name = servant_name;
 	}
 
 	string getServantName() {
 		return servant_name;
 	}
 
-	void setBeautiful(string new_beautiful) {
-		beautiful = new_beautiful;
+	void setBeautiful(string beautiful) {
+		this->beautiful = beautiful;
 	}
 
 	string getBeautiful() {
@@ -438,72 +438,72 @@ private:
 	string beautiful;
 
 public:
-	void setName(string new_name) {
-		name = new_name;
+	void setName(string name) {
+		this->name = name;
 	}
 
 	string getName() {
 		return name;
 	}
 
-	void setColor(string new_color) {
-		color = new_color;
+	void setColor(string color) {
+		this->color = color;
 	}
 
 	string getColor() {
 		return color;
 	}
 
-	void setType(string new_type) {
-		type = new_type;
+	void setType(string type) {
+		this->type = type;
 	}
 
 	string getType() {
 		return type;
 	}
 
-	void setSize(int new_size) {
-		size = new_size;
+	void setSize(int size) {
+		this->size = size;
 	}
 
 	int getSize() {
 		return size;
 	}
 
-	void setMaxSpeed(int new_max_speed) {
-		max_speed = new_max_speed;
+	void setMaxSpeed(int max_speed) {
+		this->max_speed = max_speed;
 	}
 
 	int getMaxSpeed() {
 		return max_speed;
 	}
 
-	void setTuned(bool tuned_status) {
-		tuned = tuned_status;
+	void setTuned(bool tuned) {
+		this->tuned = tuned;
 	}
 
 	bool getTuned() {
 		return tuned;
 	}
 
-	void setMotor(string new_motor) {
-		motor = new_motor;
+	void setMotor(string motor) {
+		this->motor = motor;
 	}
 
 	string getMotor() {
 		return motor;
 	}
 
-	void setModel(string new_model) {
-		model = new_model;
+	void setModel(string model) {
+		this->model = model;
 	}
 
 	string getModel() {
 		return model;
 	}
 
-	void setBeautiful(string new_beautiful) {
-		beautiful = new_beautiful;
+	void setBeautiful(string beautiful) {
+		this->beautiful = beautiful;
 	}
 
 	string getBeautiful() {
